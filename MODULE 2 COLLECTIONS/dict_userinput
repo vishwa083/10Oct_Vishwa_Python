@@ -1,0 +1,14 @@
+'''data={}
+keys=["Name","Subject","City"]
+for i in range(len(keys)):
+    x=input(f"Enter value for {keys[i]}: ")
+    data[keys[i]]=x
+print(data)'''
+
+data={}
+n=int(input("Enter no. of pairs:"))
+for i in range(n):
+    k=input("Enter key:")
+    v=input("Enter value:")
+    data[k]=v
+print(data)
